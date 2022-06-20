@@ -37,7 +37,6 @@ function divisible (numberTest) {
     for (let numberDiv = 1; numberDiv<6; numberDiv ++ ){
         if(numberTest%numberDiv == 0) {
             console.log(`${numberTest} est divisible par ${numberDiv}`);
-            numberDiv +=1
         }
         }
     
