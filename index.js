@@ -10,3 +10,9 @@ console.log(number, float);
 const basic = 34
 const stringified  = basic.toString()
 console.log(stringified);
+
+// 03 - Round
+
+const num = 1.5
+const rounded = Math.round(num)
+console.log(rounded);
