@@ -32,48 +32,20 @@ console.log(test%bis);
 // 05 - Reste division euclidienne
 
 
-let numberTest = 999
 
-
-for (let numberDiv = 1; numberDiv<6; numberDiv ++ ){
-if(numberTest%numberDiv == 0) {
-    console.log(`${numberTest} est divisible par ${numberDiv}`);
-    numberDiv +=1
-}
-}
-
-numberTest=25
-
-for (let numberDiv = 1; numberDiv<6; numberDiv ++ ){
-if(numberTest%numberDiv == 0) {
-    console.log(`${numberTest} est divisible par ${numberDiv}`);
-    numberDiv +=1
-}
-}
-
-numberTest = 190280
-
-for (let numberDiv = 1; numberDiv<6; numberDiv ++ ){
-    if(numberTest%numberDiv == 0) {
-        console.log(`${numberTest} est divisible par ${numberDiv}`);
-        numberDiv +=1
-    }
-    }
-
-    numberTest =47
-
+function divisible (numberTest) {
     for (let numberDiv = 1; numberDiv<6; numberDiv ++ ){
         if(numberTest%numberDiv == 0) {
             console.log(`${numberTest} est divisible par ${numberDiv}`);
             numberDiv +=1
         }
         }
+    
+}
 
-    numberTest = 691
 
-    for (let numberDiv = 1; numberDiv<6; numberDiv ++ ){
-        if(numberTest%numberDiv == 0) {
-            console.log(`${numberTest} est divisible par ${numberDiv}`);
-            numberDiv +=1
-        }
-        }
+divisible(numberTest = 999)
+divisible(numberTest=25)
+divisible(numberTest = 190280)
+divisible(numberTest = 47)
+divisible(numberTest = 691)
