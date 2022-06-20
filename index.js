@@ -16,3 +16,21 @@ console.log(stringified);
 const num = 1.5
 const rounded = Math.round(num)
 console.log(rounded);
+
+// 04 - Arithmétique
+
+const test = 12
+const bis = 5
+
+console.log(test+bis);
+console.log(test-bis);
+console.log(test*bis);
+console.log(test/bis);
+console.log(test**bis);
+console.log(test%bis);
+
+
+
+
+
+
